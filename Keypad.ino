@@ -1,5 +1,3 @@
-#include "arduino_secrets.h"
-
 #include <Keypad.h>
 // Using UART protocol to connect with the FPGA
 // We will use Arduino Uno R3 Expansion Header in the FPGA to establish the connection
