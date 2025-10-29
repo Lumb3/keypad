@@ -26,7 +26,7 @@ void loop() {
   char key = keypad.getKey();   // Check for pressed key
 
   if (key) {                    // If any key is pressed
-    Serial.write(key);          // Send the key to FPGA through UART
+    Serial.write(key);          // Send the key to FPGA through UART (Digital Output PIN: 1)
     Serial.println(key);        // (Optional) Print for debugging
   }
 }
