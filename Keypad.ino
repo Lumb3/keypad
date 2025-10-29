@@ -6,27 +6,30 @@ const byte ROWS = 4;
 const byte COLS = 4;
 
 const char keys[ROWS][COLS] = {
-  {'1', '2', '3', 'A'},
-  {'4', '5', '6', 'B'},
-  {'7', '8', '9', 'C'},
-  {'*', '0', '#', 'D'}
+  { '1', '2', '3', 'A' },
+  { '4', '5', '6', 'B' },
+  { '7', '8', '9', 'C' },
+  { '*', '0', '#', 'D' }
 };
 
-byte rowPins[ROWS] = {2, 4, 7, 8}; // Hevtee (Red wires)
-byte colPins[COLS] = {10, 11, 12, 13}; // Vertical (Yellow wires)
+byte rowPins[ROWS] = { 2, 4, 7, 8 };      // Hevtee (Yellow wires)
+byte colPins[COLS] = { 10, 11, 12, 13 };  // Vertical (Red wires)
 
 Keypad keypad = Keypad(makeKeymap(keys), rowPins, colPins, ROWS, COLS);
 
 void setup() {
-  Serial.begin(9600);           // Faster communication speed
-  keypad.setDebounceTime(50);   // Debounce delay (prevents double key reads)
+  Serial.begin(9600);          // Faster communication speed
+  keypad.setDebounceTime(50);  // Debounce delay (prevents double key reads)
 }
 
 void loop() {
-  char key = keypad.getKey();   // Check for pressed key
-
-  if (key) {                    // If any key is pressed
-    Serial.write(key);          // Send the key to FPGA through UART (Digital Output PIN: 1, Orange Wire)
-    Serial.println(key);        // (Optional) Print for debugging
+  char key = keypad.getKey();  // Check for pressed key
+  int INTkey;
+  if (key) {  // If any key is pressed
+    if (key >= '0' && key <= '9') {
+      keyInt = key - '0';   // Converting the character type data into integer
+      Serial.write(key);    // Send the key to FPGA through UART (Digital Output PIN: 1, Orange Wire)
+      Serial.println(key);  // (Optional) Print the data for debugging
+    }
   }
 }
