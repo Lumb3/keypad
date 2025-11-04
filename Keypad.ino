@@ -13,7 +13,7 @@ const char keys[ROWS][COLS] = {
   // 2.   4.  7.   8 ROWS
 };
 
-byte rowPins[ROWS] = { 2, 4, 7, 8 };      // Bosoo (Yellow wires)
+byte rowPins[ROWS] = { 2, 3, 4, 5 };      // Bosoo (Yellow wires)
 byte colPins[COLS] = { 10, 11, 12, 13 };  // Hevtee (Red wires)
 
 Keypad keypad = Keypad(makeKeymap(keys), rowPins, colPins, ROWS, COLS);
