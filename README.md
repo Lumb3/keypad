@@ -2,8 +2,9 @@
 **Final Project – ECE 3700**
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/7446bc23-4ab3-4b67-ad76-9b36b021b658" width="300"/>
-</p>
+  <img src="https://github.com/user-attachments/assets/4613150d-193f-46c5-9c1b-6fc7b62178a9" width="300"/>
+</p> 
+
 
 ## 📌 Purpose  
 This project focuses on building a digital keypad-based encrypted lock system.  
@@ -29,7 +30,7 @@ We detect that connection and convert it to the correct key value inside **Proje
 ---
 
 ## ⚙️ System Implementation  
-A 1 second delay was required between successive inputs so the FPGA could correctly process each key press. Once implemented, the system behaved exactly as intended.
+1 second delay was required between successive inputs so the FPGA could correctly process each key press. Once implemented, the system behaved exactly as intended.
 
 ### Circuit Setup  
 <p align="center">
