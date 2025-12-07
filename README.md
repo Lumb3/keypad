@@ -13,7 +13,7 @@
 
 ## 📌 Purpose  
 This project focuses on building a digital keypad-based encrypted lock system.  
-Green and red LEDs act as indicators to show whether the user entered the correct password. If the user's inputted password **matches** with the STATIC_PASS array in ***Project.v***, PIN_AB3 will be active HIGH, turning on the Green LED. Else, PIN_AA2 will be active HIGH.
+Green and red LEDs act as indicators to show whether the user entered the correct password. If the user's inputted password **matches** with the STATIC_PW array in ***Project.v***, PIN_AB3 will be active HIGH, turning on the Green LED. Else, PIN_AA2 will be active HIGH.
 
 Although the original plan was to use an Arduino (since the 4×4 keypad is commonly designed for it), we were able to take input directly from the FPGA. Thanks to Prof. Benoit’s guidance, we used the fact that each key in the keypad contains a simple switch that connects a row and column when pressed.
 
