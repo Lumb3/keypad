@@ -2,11 +2,11 @@
 **Final Project – ECE 3700**
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/4613150d-193f-46c5-9c1b-6fc7b62178a9" width="300"/>
+  <img src="assets/circuit.png" width="300"/>
 </p> 
 
 <p align="center">
-  <img width="600" height="400" src="https://github.com/user-attachments/assets/28ca0b7d-d732-4835-b0f6-635cfcb7d03e"/>
+  <img width="600" height="400" src="assets/GPIOs.png"/>
 </p>
 
 <p align="center"><sub>Source: <a href="https://iot-kmutnb.github.io/blogs/teaching/digital_logic_lab_2025-1/intro_fpga_boards/">IoT KMUTNB Blog</a></sub></p>
@@ -29,11 +29,11 @@ When a user presses a key, the switch inside closes, connecting one row to one c
 We detect that connection and convert it to the correct key value inside **Project.v**.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/4401702b-0873-46c3-8f4e-c9a718070aa7" width="350"/>
+  <img src="assets/structure.png" width="350"/>
 </p>
 
 <p align="center">
-  <img width="350" src="https://github.com/user-attachments/assets/41739b0b-e1a3-4d89-aec3-5fe8c8373d42"/>
+  <img width="350" src="assets/switches.png"/>
 </p>
 
 <p align="center"><sub>Source: <a href="https://www.circuitbasics.com/how-to-set-up-a-keypad-on-an-arduino/">How to Set Up a Keypad on an Arduino</a></sub></p>
@@ -45,7 +45,7 @@ We detect that connection and convert it to the correct key value inside **Proje
 
 ### Circuit Setup  
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/4089c8bf-16af-431b-a77f-369f098a8bca" width="350"/>
+  <img src="assets/setup.png" width="350"/>
 </p>
 
 ---
