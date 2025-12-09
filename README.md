@@ -64,5 +64,5 @@ There are several ways this project could be expanded:
 
 This project has been handed over to **Prof. Bhutta** so future students can continue building on it.
 
-See a related project: [FPGA Calculator](calculator/)
+See the calculator project: [FPGA Calculator](calculator/)
 ---
