@@ -1,5 +1,5 @@
 # Digital Keypad Access Lock System  
-**Final Project – ECE 3700**
+**Final Project – ECE 3700 (FPGA: 10M50DAF484C7G)**
 
 <p align="center">
   <img src="assets/circuit.png" width="300"/>
@@ -49,6 +49,10 @@ We detect that connection and convert it to the correct key value inside **Proje
 </p>
 
 ---
+### Contributors
+
+-  Erkhembileg Ariunbold
+-  Nene Ogawa
 
 ## 🚀 Future Improvements  
 There are several ways this project could be expanded:
@@ -60,4 +64,5 @@ There are several ways this project could be expanded:
 
 This project has been handed over to **Prof. Bhutta** so future students can continue building on it.
 
+See a related project: [FPGA Calculator](calculator/)
 ---
