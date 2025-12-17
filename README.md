@@ -58,11 +58,11 @@ We detect that connection and convert it to the correct key value inside **Proje
 There are several ways this project could be expanded:
 
 - Add more output indicators (e.g., buzzer or display screen)  
-- Implement multiple password modes  
+- Implement multiple password modes
 - Add lockout timers after incorrect attempts  
 - Enhance debouncing and timing models  
 
 This project has been handed over to **Prof. Bhutta** so future students can continue building on it.
 
-See the calculator project: [FPGA Calculator](calculator/)
+See the calculator project by <a href="https://github.com/Zwique">Erdembileg Ariunbold</a>: [FPGA Calculator](calculator/)
 ---
