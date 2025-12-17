@@ -58,7 +58,7 @@ We detect that connection and convert it to the correct key value inside **Proje
 There are several ways this project could be expanded:
 
 - Add more output indicators (e.g., buzzer or display screen)  
-- Implement multiple password mode
+- Implement multiple password modess
 - Add lockout timers after incorrect attempts  
 - Enhance debouncing and timing models  
 
